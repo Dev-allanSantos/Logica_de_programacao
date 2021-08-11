@@ -7,8 +7,8 @@ Sumario
 <!--ts-->
   * [Introdução](#Introdução)
   * [Exercícios](#Exercícios)
-    * [Estruturas de decisão](#Estruturas de decisão)
-    * [Operadores lógicos](#Operadores lógicos)
+    * [Decisão](#Decisão)
+    * [Operadores ](#Operadores)
   * [Estrutura dos exercícios](Estrutura dos exercícios)
  <!--te-->
  
