@@ -15,7 +15,7 @@ Sumario
 ## Introdução
 Os exercícios foram desenvolvidos utilizando a ferramenta **Portugol Studio**, que permite a escrita em pseudocódigo, e o **Flowgorithm**, resposável pelos fluxogramas.
 
-os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício. 
+os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício no readme. Lá , é possível encontrar o arquivos (.fprg - flowgorithm) e os arquivos (.por - Portugol Studio) .
 
 
 
@@ -25,7 +25,7 @@ Aqui  estão as atividades:
 ### Decisão
 Exercícios sobre estruturas de decisão:
 
-1.[Utilizando  a  estrutura  condicional  simples,  verifique  se  um  número  é  par e, caso seja, escreva na tela “o número é par”.]()
+1.[Utilizando  a  estrutura  condicional  simples,  verifique  se  um  número  é  par e, caso seja, escreva na tela “o número é par”.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec1)
 
   
 
