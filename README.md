@@ -9,7 +9,7 @@ Sumario
   * [Exercícios](#Exercícios)
     * [Decisão](#Decisão)
     * [Operadores ](#Operadores)
-  * [Estrutura dos exercícios](#Estrutura dos exercícios)
+  * [Estrutura](#Estrutura)
  <!--te-->
  
 ## Introdução
