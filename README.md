@@ -15,7 +15,19 @@ Sumario
 ## Introdução
 Os exercícios foram desenvolvidos utilizando a ferramenta **Portugol Studio**, que permite a escrita em pseudocódigo, e o **Flowgorithm**, resposável pelos fluxogramas.
 
-os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício.    
+os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício. 
+
+---
+
+## Exercícios
+Aqui  estão as atividades:
+
+### Decisão
+Exercícios sobre estruturas de decisão:
+
+1.[Utilizando  a  estrutura  condicional  simples,  verifique  se  
+um  número  é  par e, caso seja, escreva na tela “o número é par”.]()
+
   
 
 
