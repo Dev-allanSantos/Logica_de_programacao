@@ -10,4 +10,27 @@ Utilizando  a  estrutura  condicional  simples,  verifique  se  um  número  é 
 ## Pseudocódigo
 
 ```
+programa
+{
+	
+	funcao inicio()
+	{
+		
+//Declarar variáveis
+		inteiro numero
+
+		escreva("Verifica se um número é par \n")
+
+		//entradas
+		escreva("Insira um número inteiro: ")
+		leia(numero)
+
+		//Processamento + saída
+		se(numero % 2 == 0){
+			escreva(numero + " é par !!!!!")
+		}
+		
+	}
+}
+```
 
