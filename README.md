@@ -17,7 +17,7 @@ Os exercícios foram desenvolvidos utilizando a ferramenta **Portugol Studio**, 
 
 os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício. 
 
----
+
 
 ## Exercícios
 Aqui  estão as atividades:
