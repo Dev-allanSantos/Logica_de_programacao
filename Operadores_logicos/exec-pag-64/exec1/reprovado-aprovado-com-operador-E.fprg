@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-10 05:32:57 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNToyNDo0OCBQTTszMDkw"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNTozMjo1NyBQTTsxOzMxOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota" type="Real" array="False" size=""/>
+            <declare name="faltas" type="Integer" array="False" size=""/>
+            <input variable="nota"/>
+            <input variable="faltas"/>
+            <if expression="nota &gt;= 50 &amp;&amp; faltas &lt;= 15">
+                <then>
+                    <output expression="&quot;Parab&#233;ns , voc&#234; foi aprovado no processo seletivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; foi reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

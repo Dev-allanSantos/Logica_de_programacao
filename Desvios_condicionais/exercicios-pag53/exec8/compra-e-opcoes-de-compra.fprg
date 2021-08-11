@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-07 08:11:35 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wNzsxMjo1NDoyMSBQTTszMDg4"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wNzswODoxMTozNSBQTTszOzMyMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorTotal, valorFinal" type="Real" array="False" size=""/>
+            <declare name="opcaoPagamento" type="Integer" array="False" size=""/>
+            <input variable="valorTotal"/>
+            <output expression="&quot;Insira o numero de uma das op&#231;&#245;es de pagamento abaixo: &#13;&#10;1- Pagamento &#224; vista (15% de desconto)&#13;&#10;2- Pagamento com cheque pr&#233;-datado para 30 dias (10% de desconto)&#13;&#10;3- Parcelado em 3x (5% de desconto)&#13;&#10;4- Parcelado em 6x (sem desconto)&#13;&#10;5- Parcelado em 12 (8% de juros)&quot;" newline="True"/>
+            <input variable="opcaoPagamento"/>
+            <if expression="opcaoPagamento == 1">
+                <then>
+                    <assign variable="valorFinal" expression="valorTotal - (valorTotal * 0.15)"/>
+                    <output expression="&quot;Valor total = R$&quot; &amp; valorTotal &amp;&#13;&#10;&quot; Valor Final = R$&quot; &amp; valorFinal &amp;&#13;&#10;&quot; Desconto de = R$&quot; &amp; valorTotal - ValorFinal" newline="True"/>
+                </then>
+                <else>
+                    <if expression="opcaoPagamento == 2">
+                        <then>
+                            <assign variable="valorFinal" expression="valorTotal - (valorTotal * 0.10)"/>
+                            <output expression="&quot;Valor total = R$&quot; &amp; valorTotal &amp;&#13;&#10;&quot; Valor Final = R$&quot; &amp; valorFinal &amp;&#13;&#10;&quot; Desconto de = R$&quot; &amp; valorTotal - ValorFinal" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="opcaoPagamento == 3">
+                                <then>
+                                    <assign variable="ValorFinal" expression="valorTotal - (ValorTotal * 0.05)"/>
+                                    <output expression="&quot;Valor total = R$&quot; &amp; valorTotal &amp; &#13;&#10;&quot;/ Valor Final = R$&quot; &amp; valorFinal &amp;&#13;&#10;&quot;/ Desconto de = R$&quot; &amp; valorTotal - ValorFinal &amp;&#13;&#10;&quot;/ parcelas: 3X de&quot; &amp; valorFinal / 3" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="opcaoPagamento == 4">
+                                        <then>
+                                            <assign variable="valorFinal" expression="valorTotal"/>
+                                            <output expression="&quot;Valor total = R$&quot; &amp; valorTotal &amp; &#13;&#10;&quot;/ Valor Final = R$&quot; &amp; valorFinal &amp;&#13;&#10;&quot;/ Desconto de = R$&quot; &amp; valorTotal - ValorFinal &amp;&#13;&#10;&quot;/ parcelas: 6X de&quot; &amp; valorFinal / 6" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="opcaoPagamento == 5">
+                                                <then>
+                                                    <assign variable="valorFinal" expression="valorTotal + (valorTotal * 0.08)"/>
+                                                    <output expression="&quot;Valor total = R$&quot; &amp; valorTotal &amp; &#13;&#10;&quot;/ Valor Final = R$&quot; &amp; valorFinal &amp;&#13;&#10;&quot;/ Juros de = R$&quot; &amp; valorFinal - ValorTotal &amp;&#13;&#10;&quot;/ parcelas: 12X de&quot; &amp; valorFinal / 12" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Op&#231;&#227;o de pagamento inv&#225;lida&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-03 08:55:41 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wMzswODozODoxMCBQTTszMDg5"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wMzswODo1NTo0MSBQTTsxOzMyMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="prova1, prova2, prova3, media" type="Real" array="False" size=""/>
+            <input variable="prova1"/>
+            <input variable="prova2"/>
+            <input variable="prova3"/>
+            <assign variable="media" expression="(prova1 + prova2 + prova3 ) /3"/>
+            <if expression="media &gt;= 50">
+                <then>
+                    <output expression="&quot;Aluno est&#225; aprovado !!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O aluno est&#225; reprovado !!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-10 06:16:48 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNjoxMjoyOCBQTTszMDg2"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNjoxNjo0OCBQTTsxOzMyMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="usuario, senha" type="String" array="False" size=""/>
+            <input variable="usuario"/>
+            <input variable="senha"/>
+            <if expression="usuario == &quot;Anonimo&quot; &amp;&amp; senha == &quot;S3nh@&quot;">
+                <then>
+                    <output expression="&quot;Usu&#225;rio v&#225;lido&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Usu&#225;rio inv&#225;lido&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

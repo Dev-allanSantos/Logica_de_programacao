@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-10 06:31:16 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNjoyMzozNiBQTTszMDg3"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNjozMToxNiBQTTsxOzMxOTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nacionalidade, servicoMilitar" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <input variable="idade"/>
+            <input variable="nacionalidade"/>
+            <input variable="servicoMilitar"/>
+            <if expression="idade &gt;= 18 &amp;&amp; nacionalidade == &quot;brasileiro&quot; &amp;&amp; (servicoMilitar == &quot;S&quot; || servicoMilitar == &quot;s&quot;)">
+                <then>
+                    <output expression="&quot;Voc&#234; est&#225; apto a assumir a vaga&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; n&#227;o est&#225; apto a assumir a vaga&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

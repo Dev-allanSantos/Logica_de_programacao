@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-03 04:35:39 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wMzswNDoxNzo0NyBQTTszMDky"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wMzswNDozNTozOSBQTTsxOzMyMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, resto, divisao" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <assign variable="divisao" expression="numero / 2"/>
+            <assign variable="resto" expression="numero - (2 * divisao)"/>
+            <if expression="resto == 0">
+                <then>
+                    <output expression="numero &amp; &quot; &#233; par !!!!!!&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-07 12:33:36 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wNzsxMjoxMjo0MSBQTTszMDg0"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wNzsxMjozMzozNiBQTTsxOzMxOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantidade" type="Integer" array="False" size=""/>
+            <declare name="criterioA, criterioB" type="Real" array="False" size=""/>
+            <input variable="quantidade"/>
+            <assign variable="criterioA" expression="(0.25 * quantidade) + 7.5"/>
+            <assign variable="criterioB" expression="(0.5 * quantidade) + 2.5"/>
+            <if expression="criterioA &lt; criterioB">
+                <then>
+                    <output expression="&quot;A primeira op&#231;&#227;o de pagamento tem o melhor custo benef&#237;cio &quot;&amp; &quot; valor total = R$&quot; &amp; criterioA" newline="False"/>
+                </then>
+                <else>
+                    <if expression="criterioA == criterioB">
+                        <then>
+                            <output expression="&quot;Ambas as op&#231;&#245;es tem o mesmo custo. Valor total = R$&quot; &amp; criterioA" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;A segunda op&#231;&#227;o de pagamento tem o melhor custo benef&#237;cio.  valor total = R$&quot; &amp; criterioB" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

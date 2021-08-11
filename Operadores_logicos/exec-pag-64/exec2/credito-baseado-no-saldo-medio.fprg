@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-10 05:59:43 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNTo0Mjo0OCBQTTszMDkw"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswNTo1OTo0MyBQTTsxOzMyMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saldoMedio, credito, percentual" type="Real" array="False" size=""/>
+            <input variable="saldoMedio"/>
+            <if expression="saldoMedio &gt;= 0 &amp;&amp; saldoMedio &lt;= 100">
+                <then>
+                    <assign variable="percentual" expression="0"/>
+                </then>
+                <else>
+                    <if expression="saldoMedio &lt;= 200">
+                        <then>
+                            <assign variable="percentual" expression="0.10"/>
+                        </then>
+                        <else>
+                            <if expression="saldoMedio &lt;= 300">
+                                <then>
+                                    <assign variable="percentual" expression="0.20"/>
+                                </then>
+                                <else>
+                                    <assign variable="percentual" expression="0.30"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="credito" expression="percentual * saldoMedio"/>
+            <output expression="&quot;percentual ........................ &quot;  &amp; percentual * 100 &amp; &quot;%&quot;" newline="True"/>
+            <output expression="&quot;Voc&#234; ganhou um cr&#233;dito de : R$&quot; &amp; credito" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

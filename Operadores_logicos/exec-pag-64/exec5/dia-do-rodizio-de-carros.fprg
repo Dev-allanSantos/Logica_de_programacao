@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-10 08:17:09 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswODowODo0MyBQTTszMDkw"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xMDswODoxNzowOSBQTTsxOzMyMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia" type="String" array="False" size=""/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <if expression="numero == 1 || numero == 2">
+                <then>
+                    <assign variable="dia" expression="&quot;segunda-feira&quot;"/>
+                </then>
+                <else>
+                    <if expression="numero == 3 || numero == 4">
+                        <then>
+                            <assign variable="dia" expression="&quot;ter&#231;a-feira&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="numero == 5 || numero == 6">
+                                <then>
+                                    <assign variable="dia" expression="&quot;quarta-feira&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="numero == 7 || numero == 8">
+                                        <then>
+                                            <assign variable="dia" expression="&quot;quinta-feira&quot;"/>
+                                        </then>
+                                        <else>
+                                            <if expression="numero == 9 || numero == 0">
+                                                <then>
+                                                    <assign variable="dia" expression="&quot;sexta-feira&quot;"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Seu dia de rod&#237;zio &#233;: &quot; &amp; dia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

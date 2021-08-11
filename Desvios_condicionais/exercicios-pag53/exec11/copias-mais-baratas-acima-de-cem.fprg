@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-08 08:00:38 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wODswNzoyOToyNSBQTTszMDk5"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wODswODowMDozOCBQTTszOzMyMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qtde" type="Integer" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <input variable="qtdeCopias"/>
+            <if expression="qtde &gt; 100">
+                <then>
+                    <assign variable="total" expression="(Copias * 0.20)"/>
+                    <output expression="&quot;Custo unit&#225;rio .................... R$0,20&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="total" expression="qtde * 0.25"/>
+                    <output expression="&quot;Custo unit&#225;rio = R$0,25&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Total a pagar ..............R$&quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

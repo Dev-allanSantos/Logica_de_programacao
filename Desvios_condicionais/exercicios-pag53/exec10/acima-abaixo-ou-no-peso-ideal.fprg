@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-08 07:23:57 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wNzsxMDoxODo1MyBQTTszMDkx"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0wODswNzoyMzo1NyBQTTsyOzMyMDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sexo" type="String" array="False" size=""/>
+            <declare name="altura, pesoReal, pesoIdeal" type="Real" array="False" size=""/>
+            <input variable="sexo"/>
+            <input variable="altura"/>
+            <input variable="pesoReal"/>
+            <if expression="sexo == &quot;M&quot;">
+                <then>
+                    <assign variable="pesoIdeal" expression="(72.7 * altura) - 58"/>
+                </then>
+                <else>
+                    <assign variable="pesoIdeal" expression="(62.1 * altura) - 44.7"/>
+                </else>
+            </if>
+            <output expression="&quot;Seu peso ideal &#233;: &quot; &amp; pesoIdeal" newline="True"/>
+            <if expression="pesoReal == pesoIdeal">
+                <then>
+                    <output expression="&quot;Peso: &quot; &amp; pesoReal &amp; &quot; / Peso ideal: &quot; &amp; pesoIdeal &amp; &quot; Voc&#234; esta no peso&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="pesoReal &gt; pesoIdeal">
+                        <then>
+                            <output expression="&quot;Peso: &quot; &amp; pesoReal &amp; &quot; / Peso ideal: &quot; &amp; pesoIdeal &amp; &quot; Voc&#234; esta acima do peso&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Peso: &quot; &amp; pesoReal &amp; &quot; / Peso ideal: &quot; &amp; pesoIdeal &amp; &quot; Voc&#234; esta abaixo do peso&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
