@@ -16,7 +16,7 @@ programa
 	funcao inicio()
 	{
 		
-//Declarar variáveis
+		//Declarar variáveis
 		inteiro numero
 
 		escreva("Verifica se um número é par \n")
