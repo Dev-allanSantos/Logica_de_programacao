@@ -15,7 +15,7 @@ Sumario
 ## Introdução
 Os exercícios foram desenvolvidos utilizando a ferramenta **Portugol Studio**, que permite a escrita em pseudocódigo, e o **Flowgorithm**, resposável pelos fluxogramas.
 
-os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício no readme. Lá , é possível encontrar o arquivos (.fprg - flowgorithm) e os arquivos (.por - Portugol Studio) .
+os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício no readme. Lá , também é possível encontrar os arquivos (.fprg - flowgorithm) e os arquivos (.por - Portugol Studio) .
 
 
 
