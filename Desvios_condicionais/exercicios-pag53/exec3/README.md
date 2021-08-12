@@ -8,5 +8,27 @@ Utilizando a estrutura condicional composta, verifique se um número é par ou �
 
 ## Pseudocódigo
 ```
+programa
+{
+	
+	funcao inicio()
+	{
+		//Declarar variáveis
+		inteiro numero
 
+		escreva("Verifica se um número é par ou ímpar \n")
+
+		//Entradas
+		escreva("Insira um número e te diremos se ele é par ou ímpar: ")
+		leia(numero)
+
+		//Processamento + Saída
+		se(numero % 2 == 0){
+			escreva(numero + " é par !!!")
+		}
+		senao{
+			escreva(numero + " é ímpar !!!")
+		}
+	}
+}
 ```
