@@ -41,7 +41,6 @@ Média = (Prova1 + Prova2 + Prova3) / 3](https://github.com/allan-gh/Logica_de_p
 6.[Solicitar ao usuário um número inteiro e exibir o mês correspondente a este número, sendo o número 1 o mês de janeiro e 12, o mês de dezem-bro. Para valores fora da faixa entre 1 e 12, o programa deve informar que não é um mês válido.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec6)
 
 7.[Uma livraria está fazendo uma promoção para pagamento à vista em que o comprador pode escolher entre dois critérios de desconto:
-
 a)Critério A: R$ 0,25 por livro + R$ 7,50 fixo
 b)Critério B: R$ 0,50 por livro + R$ 2,50 fixo](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec7)
 
