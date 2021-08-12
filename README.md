@@ -20,7 +20,7 @@ os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enu
 
 
 ## Exercícios
-Aqui  estão as atividades:
+As atividade estão divididas por temas e por isso respeita uma sequência lógica que começa do mais fácil para o mais difícil:
 
 ### Decisão
 Exercícios sobre estruturas de decisão:
