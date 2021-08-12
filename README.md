@@ -17,6 +17,8 @@ Os exercícios foram desenvolvidos utilizando a ferramenta **Portugol Studio**, 
 
 os enunciados dos exercícios, ficarão nessa página inicial e ao clicar no enunciado você será redirecionado para a página que contém a solução do exercício no readme. Lá , também é possível encontrar os arquivos (.fprg - flowgorithm) e os arquivos (.por - Portugol Studio) .
 
+Os exercícios que aqui estão são do livro : "Princípios de lógica de programação / Glauber Roberto Paschoalini --São Paulo : SENAI-SP Editora, 2019."
+
 
 
 ## Exercícios
