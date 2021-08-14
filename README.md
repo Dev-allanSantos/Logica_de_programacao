@@ -58,13 +58,22 @@ De acordo com o valor total da compra, verificar a opção de pagamento do  clie
 9.[Dados  seis  números  inteiros  representando  dois  intervalos  de  tempo  (horas, minutos e segundos), fazer um programa para calcular a soma desses intervalos.
 ](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec9)
 
-10.[](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec10)
+10.[Elaborar um programa que verifique se o paciente está acima de seu peso ideal de acordo com a condição a seguir: •Para homens: (72.7 * altura) – 58. •Para mulheres: (62.1 * altura) – 44.7](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec10)
 
-11.[](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec11)
+11.[Escrever um programa que resolva o seguinte problema: uma fotocópia custa  R$  0,25  por  folha,  mas  acima  de  100  folhas  esse  valor  cai  para  R$ 0,20 por unidade.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec11)
 
-12.[](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec12)
+12.[Escrever um programa que informe a categoria de um jogador 
+de futebol, considerando sua idade: 
+• Infantil: até 13 anos.
+• Juvenil: até 17 anos.
+• Sênior: acima de 17 anos.
+](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec12)
 
-13.[](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec13)
+13.[Escrever um programa que solicite a idade do usuário e exiba 
+sua con-dição eleitoral:
+• Entre 16 e 17 anos: voto opcional.
+• Entre 18 e 70 anos: voto obrigatório.
+• Acima de 70 anos: voto opcional.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec13)
 
 
 
