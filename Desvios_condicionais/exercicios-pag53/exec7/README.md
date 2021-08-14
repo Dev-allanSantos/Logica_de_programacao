@@ -5,6 +5,7 @@ Uma livraria está fazendo uma promoção para pagamento à vista em que o compr
 * Critério B: R$ 0,50 por livro + R$ 2,50 fixo
 
 ## Fluxograma (Flowgorithm)
-<div align="center"><img src="./Capture1.PNG"></div>
-<div margin-left="2px"><img src="./Capture2.PNG"></div>
+<div style="margin-left:125px"><img src="./Capture1.PNG"></div>
+
+<div style="margin-left:56px"><img src="./Capture2.PNG"></div>
 
