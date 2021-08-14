@@ -24,6 +24,8 @@ Os exercícios que aqui estão são do livro : "Princípios de lógica de progra
 ## Exercícios
 As atividade estão divididas por temas e por isso respeita uma sequência lógica que começa do mais fácil para o mais difícil:
 
+Vale resaltar que em alguns momentos a solução aqui apresentada não corresponde a resolução oficial do livro.
+
 ### Decisão
 Exercícios sobre estruturas de decisão:
 
