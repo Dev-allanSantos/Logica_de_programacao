@@ -9,3 +9,9 @@ Uma livraria está fazendo uma promoção para pagamento à vista em que o compr
 
 <div style="margin-left:56px"><img src="./Capture2.PNG"></div>
 
+## Pseudocódigo
+
+```
+
+```
+
