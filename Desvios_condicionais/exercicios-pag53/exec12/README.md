@@ -1,5 +1,6 @@
 # Enunciado
 Escrever um programa que informe a categoria de um jogador de futebol, considerando sua idade: 
+
 • Infantil: até 13 anos.
 
 • Juvenil: até 17 anos.
