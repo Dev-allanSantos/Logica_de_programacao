@@ -1,4 +1,4 @@
-<h1 align="center">Logica_de_programacao</h1>
+<h1 align="center">:computer:Logica_de_programacao:computer:</h1>
 Lógica de programação é fundamental para todo programador e tema obrigatório para todo iniciante. Neste repositório, é possível encontrar exercícios de lógica desenvolvidos em pseudocódigo no portugol studio. 
 
 Sumario
