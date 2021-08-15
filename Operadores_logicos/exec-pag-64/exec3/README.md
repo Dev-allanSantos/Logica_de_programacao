@@ -6,5 +6,30 @@ Para acessar um site, o usuário deve informar um nome e senha. Se o nome for �
 
 ## Pseudocódigo
 ```
+programa
+{
+	
+	funcao inicio()
+	{
+		//Declarar variáveis
+		cadeia usuario, senha
+		
+		escreva("Verifica se usuário e senha são válidos\n-------------------------\n")
+		
+		//Entradas
+		escreva("Insira o usuário: ")
+		leia(usuario)
 
+		escreva("Insira a senha: ")
+		leia(senha)
+
+		se(usuario == "Anonimo" e senha == "S3nh@"){
+			escreva("Usuário logado")
+		}
+		senao{
+			escreva("Usuario ou senha inválidos")
+		}
+		
+	}
+}
 ```
