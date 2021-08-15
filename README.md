@@ -95,6 +95,12 @@ Acima de 301  (30%)
 3.[Para acessar um site, o usuário deve informar um nome e senha. Se o nome for “Anonimo” e a senha for “S3nh@”, então o site é acessado. Caso contrário, os dados não poderão ser acessados. Faça um programa que solicite o nome e a senha do usuário, compare com os valores do exercício e determine se o usuário 
 poderá ou não acessar o site.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec3)
 
+4.[Para preencher uma vaga em uma empresa, o candidato do sexo masculi-no deverá ser brasileiro, ter 18 anos ou mais e estar em dia com o serviço militar. Faça um programa que solicite os dados desse candidato, faça a expressão lógica que verifique as três condições e determine se ele está apto ou não para assumir a vaga.
+](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec4)
+
+5.[Faça um programa que solicite o último número da placa de um veículo e  mostre  em  qual  dia  da  semana  ele  não  pode  circular  em  função  do  rodízio de veículos
+](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec5)
+
 
 
 
