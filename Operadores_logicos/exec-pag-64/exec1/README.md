@@ -3,4 +3,10 @@ Para ser aprovado em uma instituição de ensino, o aluno precisa de nota igual 
 Faça um programa que solicite nota e falta do aluno e verifique se ele está aprovado ou reprovado
 
 ## Fluxograma
+<div align="center"><img src="./capture.png"></div>
+
+## Pseudocódigo
+```
+
+```
 
