@@ -7,6 +7,33 @@ Faça um programa que solicite nota e falta do aluno e verifique se ele está ap
 
 ## Pseudocódigo
 ```
+programa
+{
+	
+	funcao inicio()
+	{
+		//declarar variáveis
+		real nota
+		inteiro faltas
+		
+		escreva("Verifica se o aluno foi aprovado ou reprovado\n---------------------------\n")
+		
+		//Entradas
+		escreva("Insira suas notas: ")
+		leia(nota)
+		
+		escreva("Insira as faltas: ")
+		leia(faltas)
+		
+		se(nota >= 50 e faltas <= 15)
+{
+			escreva("Parabéns, você foi aprovado")
+		}
 
+		senao{
+			escreva("Infelizmente, você foi reprovado")
+		}
+	}
+}
 ```
 
