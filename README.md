@@ -78,6 +78,24 @@ sua con-dição eleitoral:
 • Acima de 70 anos: voto opcional.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec13)
 
 
+### Operadores
+Exercicícios sobre operadores lógicos:
+
+1.[Para ser aprovado em uma instituição de ensino, o aluno precisa de nota igual ou superior a 50 e a quantidade de faltas deve ser igual ou menor do que 15. 
+Faça um programa que solicite nota e falta do aluno e verifique se ele está aprovado ou reprovado]()
+
+2.[Um  banco  concederá  um  crédito  especial  aos  seus  clientes de  acordo  com o saldo médio do último ano. Faça um programa que solicite o saldo médio do cliente, calcule o valor do crédito e exiba uma mensagem com o saldo médio e o valor do crédito. Utilize a tabela a seguir como referência.
+Saldo médio | crédito ---
+0 a 100 (0%) -
+101 a 200   (10%) -
+201 a 300   (20%)-
+Acima de 301  (30%)
+]()
+
+3.[Para acessar um site, o usuário deve informar um nome e senha. Se o nome for “Anonimo” e a senha for “S3nh@”, então o site é acessado. Caso contrário, os dados não poderão ser acessados. Faça um programa que solicite o nome e a senha do usuário, compare com os valores do exercício e determine se o usuário 
+poderá ou não acessar o site.]()
+
+
 
 
   
