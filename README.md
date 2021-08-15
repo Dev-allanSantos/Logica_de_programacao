@@ -82,7 +82,7 @@ sua con-dição eleitoral:
 Exercicícios sobre operadores lógicos:
 
 1.[Para ser aprovado em uma instituição de ensino, o aluno precisa de nota igual ou superior a 50 e a quantidade de faltas deve ser igual ou menor do que 15. 
-Faça um programa que solicite nota e falta do aluno e verifique se ele está aprovado ou reprovado]()
+Faça um programa que solicite nota e falta do aluno e verifique se ele está aprovado ou reprovado](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec1)
 
 2.[Um  banco  concederá  um  crédito  especial  aos  seus  clientes de  acordo  com o saldo médio do último ano. Faça um programa que solicite o saldo médio do cliente, calcule o valor do crédito e exiba uma mensagem com o saldo médio e o valor do crédito. Utilize a tabela a seguir como referência.
 Saldo médio | crédito ---
@@ -90,10 +90,10 @@ Saldo médio | crédito ---
 101 a 200   (10%) -
 201 a 300   (20%)-
 Acima de 301  (30%)
-]()
+](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec2)
 
 3.[Para acessar um site, o usuário deve informar um nome e senha. Se o nome for “Anonimo” e a senha for “S3nh@”, então o site é acessado. Caso contrário, os dados não poderão ser acessados. Faça um programa que solicite o nome e a senha do usuário, compare com os valores do exercício e determine se o usuário 
-poderá ou não acessar o site.]()
+poderá ou não acessar o site.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec3)
 
 
 
