@@ -9,6 +9,7 @@ Sumario
   * [Exercícios](#Exercícios)
     * [Decisão](#Decisão)
     * [Operadores ](#Operadores)
+    * [Laços](#Laços)
   * [Estrutura](#Estrutura)
  <!--te-->
  
@@ -100,6 +101,11 @@ poderá ou não acessar o site.](https://github.com/allan-gh/Logica_de_programac
 
 5.[Faça um programa que solicite o último número da placa de um veículo e  mostre  em  qual  dia  da  semana  ele  não  pode  circular  em  função  do  rodízio de veículos
 ](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec5)
+
+### Laços
+exercicíos sobre estruturas de repetição (laços):
+
+1. []
 
 
 
