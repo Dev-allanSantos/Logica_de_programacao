@@ -113,6 +113,17 @@ exercicíos sobre estruturas de repetição (laços):
 
 3. [Faça um programa que solicite um valor ao usuário e calcule o fatorial desse número.]()
 
+4. [Faça um programa que, dada a sequência de Fibonacci (11235813...n),solicite um número inteiro ao usuário e mostre todos os valores da se-quência da posição 1 até a posição informada pelo usuário. Por exem-plo, se o usuário digitou o número 10, deverão ser gerados 10 números. Lembre-se de que existem limitações para armazenar valores em uma linguagem de programação
+]()
+
+5. [Faça um programa que solicite um valor ao usuário e verifique se esse valor é um número primo. Utilize uma estrutura de repetição na solução deste exercício.
+]()
+
+6. [Faça um programa que leia uma quantidade desconhecida de números e conte quantos deles estão nos seguintes intervalos: [0 – 25.9], [26 – 50.9], [51 – 75.9] e [76 – 100]. A entrada de dados deve terminar quando for lido um número negativo.
+]()
+
+7. [Faça um menu de opções de um programa com as seguintes regras:• O usuário deve selecionar as opções 0, 1, 2 ou 3. Outros valores são inválidos, e a opção deverá ser selecionada novamente.• Se a opção selecionada for 0, encerre o programa.• Se a opção selecionada for 1, execute a lógica do exercício 3.• Se a opção selecionada for 2, execute a lógica do exercício 4.• Se a opção selecionada for 3, execute a lógica do exercício 5]()
+
 
 
 
