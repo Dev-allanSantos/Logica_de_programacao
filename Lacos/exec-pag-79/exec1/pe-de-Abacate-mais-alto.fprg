@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-15 03:00:29 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNTswMjo0MDoyMiBQTTszMDgy"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNTswMzowMDoyOSBQTTsxOzMxOTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ano, anoInicial" type="Integer" array="False" size=""/>
+            <declare name="alturaAbacate, alturaManga" type="Real" array="False" size=""/>
+            <input variable="ano"/>
+            <assign variable="anoInicial" expression="ano"/>
+            <assign variable="alturaAbacate" expression="1.10"/>
+            <assign variable="alturaManga" expression="1.50"/>
+            <while expression="alturaAbacate &lt;= alturaManga">
+                <assign variable="alturaAbacate" expression="alturaAbacate + 0.03"/>
+                <assign variable="alturaManga" expression="alturaManga + 0.02"/>
+                <assign variable="ano" expression="ano + 1"/>
+            </while>
+            <output expression="&quot;Altura do p&#233; de abacate --&gt; &quot; &amp; alturaAbacate" newline="True"/>
+            <output expression="&quot;Altura do p&#233; de Manga --&gt; &quot; &amp; alturaManga" newline="True"/>
+            <output expression="&quot;Ano em que o p&#233; de abacate fica mais  alto que o p&#233; de manga -&gt; &quot; &amp; ano" newline="True"/>
+            <output expression="&quot;Neste ritmo de crescimeto o p&#233; de abacate demoraria &quot; &amp; (ano - anoInicial) &amp; &quot; anos para ficar mais alto que o p&#233; de manga&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

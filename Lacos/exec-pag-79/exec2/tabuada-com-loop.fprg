@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-15 03:14:47 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNTswMzowNzozNyBQTTszMDky"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNTswMzoxNDo0NyBQTTsxOzMxOTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, valorInicial, valorFinal, contador" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <input variable="valorInicial"/>
+            <input variable="valorFinal"/>
+            <output expression="&quot;Tabuada do &quot; &amp; numero" newline="True"/>
+            <for variable="contador" start="valorInicial" end="valorFinal" direction="inc" step="1">
+                <output expression="numero &amp; &quot; x &quot; &amp; contador &amp; &quot; = &quot; &amp; (numero * contador)" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

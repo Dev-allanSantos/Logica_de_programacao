@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-15 03:40:28 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNTswMzozNjoxMiBQTTszMDg3"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNTswMzo0MDoyOCBQTTsxOzMxOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, contador, fatorial" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <assign variable="fatorial" expression="1"/>
+            <for variable="contador" start="numero" end="1" direction="dec" step="1">
+                <assign variable="fatorial" expression="fatorial * contador"/>
+            </for>
+            <output expression="numero &amp; &quot;! = &quot; &amp; fatorial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

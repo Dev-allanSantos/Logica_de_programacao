@@ -1,0 +1,5 @@
+1-Em que ano, contando a partir do ano atual, um pé de abacate fica mais alto do que um pé de manga? O pé de manga tem 1,50 m e cresce 2 cen-tímetros por ano, e o pé de abacate tem 1,10 m e cresce 3 centímetros por ano. Faça um programa para responder essa pergunta, utilizando uma das estruturas de repetição.
+
+2.Faça um programa para fazer uma tabuada solicitando:•Tabuada de qual número?•Começar a tabuada com qual valor?•Fazer a tabuada até qual valor?
+
+3.Faça um programa que solicite um valor ao usuário e calcule o fatorial desse número.
