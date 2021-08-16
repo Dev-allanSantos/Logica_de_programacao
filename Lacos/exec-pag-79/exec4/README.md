@@ -4,7 +4,7 @@ até a posição informada pelo usuário. Por exemplo, se o usuário digitou o n
 valores em uma linguagem de programação
 
 ## Fluxograma
-<div align="center" ><img src="./capture1.png"></div>
+<div  ><img src="./capture1.png"></div>
 <div align="center" ><img src="./capture2.png"></div>
 
 ## Pseudocódigo
