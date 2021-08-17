@@ -3,7 +3,7 @@ Faça um programa que solicite um valor ao usuário e verifique se esse valor é
 
 ## Fluxograma
 <div align="center"><img src="./capture1.png"></div>
-<div align="center"><img src="./capture2.png"></div>
+<div ><img src="./capture2.png"></div>
 
 ## Pseudocódigo
 ```
