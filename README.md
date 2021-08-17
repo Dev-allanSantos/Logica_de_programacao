@@ -27,7 +27,7 @@ As atividade estão divididas por temas e por isso respeita uma sequência lógi
 
 Vale resaltar que em alguns momentos a solução aqui apresentada não corresponde a resolução oficial do livro.
 
-### Decisão
+### Decisão :question:
 Exercícios sobre estruturas de decisão:
 
 1.[Utilizando  a  estrutura  condicional  simples,  verifique  se  um  número  é  par e, caso seja, escreva na tela “o número é par”.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec1)
@@ -79,7 +79,7 @@ sua con-dição eleitoral:
 • Acima de 70 anos: voto opcional.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec13)
 
 
-### Operadores
+### Operadores (:heavy_plus_sign: :heavy_minus_sign: :heavy_multiplication_x: :heavy_division_sign:)
 Exercicícios sobre operadores lógicos:
 
 1.[Para ser aprovado em uma instituição de ensino, o aluno precisa de nota igual ou superior a 50 e a quantidade de faltas deve ser igual ou menor do que 15. 
@@ -102,7 +102,7 @@ poderá ou não acessar o site.](https://github.com/allan-gh/Logica_de_programac
 5.[Faça um programa que solicite o último número da placa de um veículo e  mostre  em  qual  dia  da  semana  ele  não  pode  circular  em  função  do  rodízio de veículos
 ](https://github.com/allan-gh/Logica_de_programacao/tree/main/Operadores_logicos/exec-pag-64/exec5)
 
-### Laços
+### Laços :repeat:
 exercicíos sobre estruturas de repetição (laços):
 
 1. [Em que ano, contando a partir do ano atual, um pé de abacate fica mais alto do que um pé de manga? O pé de manga tem 1,50 m e cresce 2 cen-tímetros por ano, e o pé de abacate tem 1,10 m e cresce 3 centímetros por ano. Faça um programa para responder essa pergunta, utilizando uma das estruturas de repetição.
