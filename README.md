@@ -7,7 +7,7 @@ Sumario
 <!--ts-->
   * [Introdução](#Introdução)
   * [Exercícios](#Exercícios)
-    * [Decisão](#Decisão)
+    * [Decisão](#Decisão :question:)
     * [Operadores ](#Operadores)
     * [Laços](#Laços)
   * [Estrutura](#Estrutura)
