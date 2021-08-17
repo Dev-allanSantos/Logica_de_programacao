@@ -7,7 +7,7 @@ Sumario
 <!--ts-->
   * [Introdução](#Introdução)
   * [Exercícios](#Exercícios)
-    * [Decisão](#Decisão :question:)
+    * [Decisão](#Decisão)
     * [Operadores ](#Operadores)
     * [Laços](#Laços)
   * [Estrutura](#Estrutura)
@@ -27,7 +27,7 @@ As atividade estão divididas por temas e por isso respeita uma sequência lógi
 
 Vale resaltar que em alguns momentos a solução aqui apresentada não corresponde a resolução oficial do livro.
 
-### Decisão :question:
+### Decisão 
 Exercícios sobre estruturas de decisão:
 
 1.[Utilizando  a  estrutura  condicional  simples,  verifique  se  um  número  é  par e, caso seja, escreva na tela “o número é par”.](https://github.com/allan-gh/Logica_de_programacao/tree/main/Desvios_condicionais/exercicios-pag53/exec1)
