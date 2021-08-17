@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-08-16 01:52:45 PM"/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNjswMTo0ODowNiBQTTszMDky"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLUVGTVE0TzY7MjAyMS0wOC0xNjswMTo1Mjo0NSBQTTsxOzMxOTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, contador, divisores" type="Integer" array="False" size=""/>
+            <assign variable="divisores" expression="0"/>
+            <input variable="numero"/>
+            <for variable="contador" start="1" end="numero" direction="inc" step="1">
+                <if expression="numero %  contador == 0">
+                    <then>
+                        <assign variable="divisores" expression="divisores + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="divisores == 2">
+                <then>
+                    <output expression="numero &amp; &quot; &#233; primo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="numero &amp; &quot; n&#227;o &#233; primo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
