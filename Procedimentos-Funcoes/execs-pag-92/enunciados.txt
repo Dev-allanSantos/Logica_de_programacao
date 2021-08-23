@@ -1,0 +1,9 @@
+1-Elabore um programa que utilize função que receba parâmetro. O pro-grama deverá solicitar um número inteiro ao usuário e passar esse nú-mero como parâmetro para a função. Essa função deverá ser capaz de analisar  se  o  número  informado  é  par  ou  ímpar.  Se  for  par,  a  função  deverá retornar 0 e, se for ímpar, a função deverá retornar 1. De posse dessa informação, o programa que chamou essa função deverá apresentar na tela o número digitado e se ele é par ou ímpar.
+
+2-Elabore um programa que utilize função que receba parâmetro. O pro-grama deverá solicitar um número inteiro ao usuário e passar esse nú-mero como parâmetro para a função. Essa função deverá ser capaz de analisar se o número informado é primo ou não é primo. Se for primo, a  função  deverá  retornar  VERDADEIRO  e,  se  não  for  primo,  deverá  retornar FALSO. De posse dessa informação, o programa que chamou essa função deverá apresentar na tela o número digitado e se ele é primo ou não.
+
+3-Elabore um programa que se utilize de função que receba parâmetro. O programa deve solicitar dois números quaisquer ao usuário e passar es-ses números como parâmetros para uma função. Essa função deverá ser capaz de calcular a média aritmética entre esses dois números e retornar o resultado dessa operação. De posse dessa informação, o programa que chamou essa função deverá apresentar em tela o valor dos dois números digitados e o cálculo da média aritmética entre eles
+
+4-Existe um caminho para o cálculo de raízes em matemática que se utiliza de potência =2727312.Elabore um programa que solicite ao usuário dois valores inteiros (índice e  radicando)  e  calcule  a  raiz  de  acordo  com  esse  método  por  meio  de  uma função que receberá os valores e devolverá a resposta.
+
+5-Faça um programa que solicite um valor inteiro ao usuário e, a partir de um procedimento, desenhe um quadrado na tela usando o valor infor-mado como comprimento do lado.
