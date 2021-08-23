@@ -10,9 +10,10 @@ Sumario
     * [Decisão](#Decisão)
     * [Operadores ](#Operadores)
     * [Laços](#Laços)
+    * [Funções](#Funções)
   * [Estrutura](#Estrutura)
  <!--te-->
- 
+
 ## Introdução
 Os exercícios foram desenvolvidos utilizando a ferramenta **Portugol Studio**, que permite a escrita em pseudocódigo, e o **Flowgorithm**, resposável pelos fluxogramas.
 
@@ -127,8 +128,20 @@ poderá ou não acessar o site.](https://github.com/allan-gh/Logica_de_programac
 
 
 
+### Funções 
 
-  
+exercícios sobre funções e procedimentos:
+
+1. [Elabore um programa que utilize função que receba parâmetro. O programa deverá solicitar um número inteiro ao usuário e passar esse número como parâmetro para a função. Essa função deverá ser capaz de analisar  se  o  número  informado  é  par  ou  ímpar.  Se  for  par,  a  função  deverá retornar 0 e, se for ímpar, a função deverá retornar 1. De posse dessa informação, o programa que chamou essa função deverá apresentar na tela o número digitado e se ele é par ou ímpar.](https://github.com/Dev-allanSantos/Logica_de_programacao/tree/main/Procedimentos-Funcoes/execs-pag-92/exc1)
+2. [Elabore um programa que utilize função que receba parâmetro. O programa deverá solicitar um número inteiro ao usuário e passar esse número como parâmetro para a função. Essa função deverá ser capaz de analisar se o número informado é primo ou não é primo. Se for primo, a  função  deverá  retornar  VERDADEIRO  e,  se  não  for  primo,  deverá  retornar FALSO. De posse dessa informação, o programa que chamou essa função deverá apresentar na tela o número digitado e se ele é primo ou não.](https://github.com/Dev-allanSantos/Logica_de_programacao/tree/main/Procedimentos-Funcoes/execs-pag-92/exec2)
+
+3. [Elabore um programa que se utilize de função que receba parâmetro. O programa deve solicitar dois números quaisquer ao usuário e passar esses números como parâmetros para uma função. Essa função deverá ser capaz de calcular a média aritmética entre esses dois números e retornar o resultado dessa operação. De posse dessa informação, o programa que chamou essa função deverá apresentar em tela o valor dos dois números digitados e o cálculo da média aritmética entre eles](https://github.com/Dev-allanSantos/Logica_de_programacao/tree/main/Procedimentos-Funcoes/execs-pag-92/exec3)
+
+4. [Existe um caminho para o cálculo de raízes em matemática que se utiliza de potência .Elabore um programa que solicite ao usuário dois valores inteiros (índice e  radicando)  e  calcule  a  raiz  de  acordo  com  esse  método  por  meio  de  uma função que receberá os valores e devolverá a resposta.](https://github.com/Dev-allanSantos/Logica_de_programacao/tree/main/Procedimentos-Funcoes/execs-pag-92/exec4)
+
+5. [Faça um programa que solicite um valor inteiro ao usuário e, a partir de um procedimento, desenhe um quadrado na tela usando o valor informado como comprimento do lado.](https://github.com/Dev-allanSantos/Logica_de_programacao/tree/main/Procedimentos-Funcoes/execs-pag-92/exec5)
+
+   
 
 
 
