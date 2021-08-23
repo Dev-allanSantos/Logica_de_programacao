@@ -14,7 +14,10 @@ Considerar a situação em que um cliente faz uma determinada compra em uma loja
 De acordo com o valor total da compra, verificar a opção de pagamento do  cliente,  calcular  o  valor  final  da  compra  e,  se  a  escolha  for  por  pagamento  
 pacelado,  calcular  também  o  valor  das  parcelas.  Apresentar  ao  usuário  uma  mensagem  com  o  valor  total  da  compra,  o  valor  final  da  compra,  a  
 diferença  entre  os  dois,  identificar  como  desconto  se  a  diferença for positiva, como juros se for negativa, mostrar, também, a quantidade e o valor das 
-parcelas
+parcelas.
+
+## Fluxograma
+fluxograma deste programa é muito grande. Confira o fluxograma baixando o flowgorithm.
 
 ## Pseudocódigo
 ``` 
