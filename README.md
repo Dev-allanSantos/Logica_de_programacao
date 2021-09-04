@@ -144,7 +144,7 @@ obs: o autor do livro chama funções que não retornam valores de procedimentos
 
 
 
-### Pagamento app :money_with_wings:
+### Pagamento app 
 
 
 
