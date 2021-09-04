@@ -11,7 +11,7 @@ Sumario
     * [Operadores ](#Operadores)
     * [Laços](#Laços)
     * [Funções](#Funções)
-    * [Folha de Pagamento app](#Folha de Pagamento app)
+    * [Pagamento app](#Pagamento app)
   * [Estrutura](#Estrutura)
  <!--te-->
 
@@ -144,11 +144,11 @@ obs: o autor do livro chama funções que não retornam valores de procedimentos
 
 
 
-### Folha de Pagamento app :money_with_wings:
+### Pagamento app :money_with_wings:
 
 
 
-[O exercício proposto aqui é desenvolver uma aplicação que automatize a tarefa de gerar folhas de pagamento , sendo que no momento essa função é realizada de maneira manual através de uma planilha eletrônica. O usuário deve inserir dados como: nome, salário bruto, plano de saúde e número de dependentes para cálculo do Imposto de Renda. O programa recebe essas informações e calcula os descontos como: inss, vale-transporte, vale-refeição, vale-alimentação, imposto de renda retido na Fonte, assistência médica e seguro de vida ]()
+[O exercício proposto aqui é desenvolver uma aplicação que automatize a tarefa de gerar folhas de pagamento , sendo que no momento essa função é realizada de maneira manual através de uma planilha eletrônica. O usuário deve inserir dados como: nome, salário bruto, plano de saúde e número de dependentes para cálculo do Imposto de Renda. O programa recebe essas informações e calcula os descontos como: inss, vale-transporte, vale-refeição, vale-alimentação, imposto de renda retido na Fonte, assistência médica e seguro de vida ](https://github.com/Dev-allanSantos/Logica_de_programacao/tree/main/folhaPagamentoapp)
 
 obs : este projeto está na página 95 do livro.
 
