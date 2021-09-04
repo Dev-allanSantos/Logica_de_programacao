@@ -11,6 +11,7 @@ Sumario
     * [Operadores ](#Operadores)
     * [Laços](#Laços)
     * [Funções](#Funções)
+    * [Folha de Pagamento app](#Folha de Pagamento app)
   * [Estrutura](#Estrutura)
  <!--te-->
 
@@ -107,7 +108,7 @@ poderá ou não acessar o site.](https://github.com/allan-gh/Logica_de_programac
 ### Laços 
 :repeat: exercicíos sobre estruturas de repetição (laços):
 
-1. [Em que ano, contando a partir do ano atual, um pé de abacate fica mais alto do que um pé de manga? O pé de manga tem 1,50 m e cresce 2 cen-tímetros por ano, e o pé de abacate tem 1,10 m e cresce 3 centímetros por ano. Faça um programa para responder essa pergunta, utilizando uma das estruturas de repetição.
+1. [Em que ano, contando a partir do ano atual, um pé de abacate fica mais alto do que um pé de manga? O pé de manga tem 1,50 m e cresce 2 centímetros por ano, e o pé de abacate tem 1,10 m e cresce 3 centímetros por ano. Faça um programa para responder essa pergunta, utilizando uma das estruturas de repetição.
 ](https://github.com/allan-gh/Logica_de_programacao/tree/main/Lacos/exec-pag-79/exec1)
 
 2. [Faça um programa para fazer uma tabuada solicitando:•Tabuada de qual número?•Começar a tabuada com qual valor?•Fazer a tabuada até qual valor?
@@ -142,4 +143,12 @@ exercícios sobre funções e procedimentos:
 obs: o autor do livro chama funções que não retornam valores de procedimentos
 
 
+
+### Folha de Pagamento app :money_with_wings:
+
+
+
+[O exercício proposto aqui é desenvolver uma aplicação que automatize a tarefa de gerar folhas de pagamento , sendo que no momento essa função é realizada de maneira manual através de uma planilha eletrônica. O usuário deve inserir dados como: nome, salário bruto, plano de saúde e número de dependentes para cálculo do Imposto de Renda. O programa recebe essas informações e calcula os descontos como: inss, vale-transporte, vale-refeição, vale-alimentação, imposto de renda retido na Fonte, assistência médica e seguro de vida ]()
+
+obs : este projeto está na página 95 do livro.
 
