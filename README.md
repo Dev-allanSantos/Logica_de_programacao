@@ -11,7 +11,7 @@ Sumario
     * [Operadores ](#Operadores)
     * [Laços](#Laços)
     * [Funções](#Funções)
-    * [Pagamento app](#Pagamento app)
+    * [Pagamento](#Pagamento)
   * [Estrutura](#Estrutura)
  <!--te-->
 
